@@ -2,3 +2,4 @@
 
 ### Огромное спасибо:
 - https://github.com/SunnyientDev/all_courses/tree/master/Languages%20courses/C++/OOP%20course
+- https://github.com/NKR24/Coursework-OOP-Mirea
