@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "ТЕСТ",
+            "command": "g++ main.cpp a.cpp -o main.out",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        }
+    ],
+    "version": "2.0.0"
+}
