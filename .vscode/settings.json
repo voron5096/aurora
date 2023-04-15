@@ -4,5 +4,8 @@
         "new": "cpp"
     }
     "files.autoSave": "afterDelay",
-    "git.allowForcePush": true
+    "git.allowForcePush": true,
+    "git.confirmEmptyCommits": false,
+    "git.confirmSync": false
+
 }
