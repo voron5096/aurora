@@ -3,4 +3,6 @@
         "iostream": "cpp",
         "new": "cpp"
     }
+    "files.autoSave": "afterDelay",
+    "git.allowForcePush": true
 }
