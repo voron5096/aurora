@@ -1,3 +1,4 @@
+// добавляется метод print
 #ifndef __MYCLASS_H__
 #define __MYCLASS_H__
 

@@ -1,3 +1,4 @@
+// добавляется obj1 и расширяется func
 #include <iostream>
 using namespace std;
 #include "main.h"
