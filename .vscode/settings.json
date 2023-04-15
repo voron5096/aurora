@@ -5,7 +5,7 @@
     }
     "files.autoSave": "afterDelay",
     "git.allowForcePush": true,
-    "git.confirmEmptyCommits": false,
+    "git.confirmEmptyCommits": true,
     "git.confirmSync": false
 
 }
