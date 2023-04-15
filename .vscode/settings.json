@@ -6,6 +6,6 @@
     "files.autoSave": "afterDelay",
     "git.allowForcePush": true,
     "git.confirmEmptyCommits": true,
-    "git.confirmSync": true
+    "git.confirmSync": false // убрать подтверждение
 
 }
