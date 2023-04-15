@@ -7,6 +7,6 @@
     "git.allowForcePush": true,
     "git.confirmEmptyCommits": true,
     "git.confirmSync": false, // убрать подтверждение
-    "git.confirmForcePush": true
+    "git.confirmForcePush": false
 
 }
