@@ -2,11 +2,17 @@
     "files.associations": {
         "iostream": "cpp",
         "new": "cpp"
-    }
+    },
     "files.autoSave": "afterDelay",
     "git.allowForcePush": true,
     "git.confirmEmptyCommits": true,
     "git.confirmSync": false, // убрать подтверждение
-    "git.confirmForcePush": true
-
+    "git.confirmForcePush": true,
+    "markdown-preview-github-styles.colorTheme": "light",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.preferredLightColorTheme": "Default Light+",
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "window.autoDetectColorScheme": false,
+    "typescript.inlayHints.enumMemberValues.enabled": false,
 }
