@@ -1,3 +1,9 @@
+## 
+<details>
+<summary>Введение</summary>
+ 
+</details>
+
 ### Постановка задачи
 
 ### Выходные данные
@@ -22,18 +28,6 @@
 
 
 ### 4 БЛОК-СХЕМА
-
-### 5 ИСХОДНЫЙ КОД
-```c++
-#include <stdlib.h>
-#include <stdio.h>
-#include <iostream>
-
-using namespace std;
-int main() {
-  return(0);
-}
-```
 
 ### 6 ТЕСТИРОВАНИЕ
 | Входные данные | Выходные данные |
