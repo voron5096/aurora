@@ -1,5 +1,5 @@
 #compile = "make -s"
-run = "clang++ 3.1.5/main.cpp && ./a.out"
+run = "clang++ 4.1.1/main.cpp && ./a.out"
 hidden = ["main", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
 
 [nix]
