@@ -1,26 +1,34 @@
+// 1 класс - единственный корневой, все остальные подчинённые к нему 
 #include "cl_application.h"
-cl_application::cl_application(cl_base* parent = nullptr) {
-  cl_base::root -> set_parent(parent);
-  cl_base::root -> set_name("root");
-  cl_base::root -> children.push_back(root);
+
+cl_application::cl_application(cl_base* p_head = nullptr):cl_base(p_head) { // конструктор базового класса
 }
 
-void cl_application::bild_tree_objects() {
-  string name1, name2;
-  cin >> name1;
-  cl_base* child = new cl_base(name1, nullptr);
+void cl_application::bild_tree_objects() { // построение иерархии дерева
+  string s_head_name, s_sub_name; // 2 переменные для головного и подчинённого объектов
+  cl_base* p_head = this; // указатель на головной элемент, будет текущим элементом
+  cl_base* p_sub = nullptr; // указатель на подчинённый элемент
+  cin >> s_head_name; // считываем имя головного (корневого) элемента
+  se_name(s_head_name); // // присваеваем его текущему объекту
+  //cl_base* child = new cl_base(s_head_name, nullptr);
 
-  while (true) {
-    cin >> name1 >> name2;
-    if (name1 == name2) {
-      return;
-    }
-    cl_base* child2 = new cl_base(name2, root -> get_object_by_name(name1));
-    child = child2;
+
+  while (true) { // следом идет ввод бесконечных пар объектов
+    cin >> s_head_name >> s_sub_name;
+    if (s_head_name == s_sub_name) // проверяем их на разность
+      break;
+    if (p_sub != nullptr && s_head_name == p_sub -> get_name()) // // головой элемент может поменяться, и создаться новая ветка к последнему созданному объекту, сделаем проверку не поменялся ли у нас головной элемент
+      p_head = p_sub; // подчинённый становится головным
+    // проверим существует ли это имя на текущем уровне иерархии, и тогда можем вызывать конструктор
+    // также перед добавлением мы должны убедиться что добавляем его к последнему созданному элементу (не добавляем в случайное место) 
+    if (p_head -> set_sub_name(s_sub_name) == nullptr && s_head_name == (p_head -> get_name())
+      p_sub = new cl_1(p_head, s_sub_name) // конструктор, создаёт объект нового класса (передается указатель на головной элемент, к которому добавляется новый подчинённый элемент)
+
   }
 }
-int cl_application::exec_app() {
-  cout << root->children[1]->get_name();
-  root->children[1]->print_tree();
+
+int cl_application::exec_app() { // все манипуляции дерева
+  cout << get_name(); // вывод значения корневого элемента иерархии
+  print_tree();
   return 0;
 }
