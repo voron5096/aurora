@@ -27,10 +27,8 @@ int main() {
   obj2 -> method2();
   obj1 -> print();
   obj1 -> sum();
-  cout << endl;
   obj2 -> print();
   obj2 -> sum();
-  cout << endl;
   obj2 = obj1;
   obj1 -> method2();
   obj2 -> print();
