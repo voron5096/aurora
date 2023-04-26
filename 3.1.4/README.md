@@ -207,3 +207,9 @@ Destructor
 | --- | ----- | ------ | ---- | -- |
 | 1 | | Вывод "Destructor" | 2
 | 2 | | Удаление объекта arr | 0
+
+### 6 ТЕСТИРОВАНИЕ
+| Входные данные | Выходные данные |
+| --- | ----- |
+|  4 <br> 3 5 1 2 | 4 <br> Default constructor <br>Constructor set <br> Destructor <br> Copy constructor <br> 15  5   2   2 <br> 24 <br> 20   5   4   2 <br> 31 <br> Destructor <br> Destructor |
+| 1 | 1? |

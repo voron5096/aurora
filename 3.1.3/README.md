@@ -229,5 +229,5 @@ Destructor
 ### 6 ТЕСТИРОВАНИЕ
 | Входные данные | Выходные данные |
 | --- | ----- |
-|  8 <br> 1 2 3 4 5 6 7 8 | 8 <br> Constructor set <br> Copy constructor <br> 120 <br> Destructor <br>56 <br> Destructor |
+|  8 <br> 1 2 3 4 5 6 7 8 | 8 <br> Constructor set <br> Copy constructor <br> 120 <br> Destructor <br> 56 <br> Destructor |
 | 1 | 1? |
