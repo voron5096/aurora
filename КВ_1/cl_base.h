@@ -4,6 +4,9 @@
 #include <vector>
 using namespace std;
 
+#ifndef __H__
+#define __H__
+
 class cl_base {
   // Поля:
   string s_name; // строковое поле для имени каждого объекта
@@ -20,3 +23,5 @@ class cl_base {
     cl_base* get_sub_object(string s_name); // поиск подчинённого объекта, аргументом выступает именя которое мы ищем
     void print_tree();// вывод метода иерархии объекта
 };
+
+#endif
