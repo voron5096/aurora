@@ -6,7 +6,5 @@ class cl_1:public cl_base { // Класс 1 наследуемый от базо
 2. Имя
 */
 
-  cl_1(cl_base* p_head, string s_name) {
-    
-  }
+  cl_1(cl_base* p_head, string s_name);
 };

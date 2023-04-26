@@ -1,4 +1,5 @@
 // База для всех объектов
+#include <iostream>
 #include <string>
 #include <vector>
 using namespace std;
@@ -13,7 +14,6 @@ class cl_base {
   public:
     cl_base(cl_base* p_head, string s_name = "Base Object"); // 2 параметр задаёт имя по умолчанию
     ~cl_base(); // для удаление всех подчинённых объектов
-  private:
     void set_name(string s_new_name); // редактирование нового значение поля
     string get_name(); // получение имени
     cl_base* get_head(); // получение имени поля p_head_object
