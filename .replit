@@ -1,6 +1,7 @@
 #compile = "make -s"
-run = "clang++ КВ_1old/main.cpp && ./a.out"
+run = "clang++ КВ_2/main.cpp && ./a.out"
 hidden = ["main", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
+
 
 [nix]
 channel = "stable-22_11"
@@ -9,7 +10,7 @@ channel = "stable-22_11"
 requiredFiles = [".replit", "replit.nix", ".ccls-cache"]
 
 [debugger]
-support = true
+support = false
 
 [debugger.compile]
 command = ["make", "main-debug"]
@@ -66,6 +67,6 @@ pattern = "**/*.{cpp,h}"
 [languages.cpp.languageServer]
 start = "ccls"
 
-[deployment]
-run = ["sh", "-c", "./main"]
-build = ["sh", "-c", "make -s"]
+#[deployment]
+#run = ["sh", "-c", "./main"]
+#build = ["sh", "-c", "make -s"]

@@ -21,7 +21,7 @@ class cl_base {
     string get_name(); // получение имени
     cl_base* get_head(); // получение имени поля p_head_object
     cl_base* get_sub_object(string s_name); // поиск подчинённого объекта, аргументом выступает именя которое мы ищем
-    void print_tree();// вывод метода иерархии объекта
+    void print_tree(); // вывод метода иерархии объекта
 };
 
 #endif
