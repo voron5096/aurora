@@ -14,7 +14,7 @@ class cl_parent {
 			changePrivate(iprivate);
 		};
 		void print() { // метод, который выводит на экран значение обоих свойств. Сперва значение закрытого свойства, потом значение открытого свойства
-			cout << privatProp << "   " << publicProp;
+			cout << privatProp << "    " << publicProp;
 		};
 
 	private:
