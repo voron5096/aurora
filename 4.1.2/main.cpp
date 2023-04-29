@@ -1,20 +1,21 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#include "MyClass4.h"
+#include "MC_4.h"
 
 int main() {
-	string prefix;
+	string name;
 	int data;
-	cin >> prefix >> data;
+	cin >> name >> data;
 	
-	MyClass1* obj; // Описать четыре класса которые последовательно наследуют друг друга, последовательными номерами классов 1,2,3,4.
-	obj = (MyClass1*) new MyClass4(prefix, data); // Реализовать программу, в которой использовать единственный указатель на объект базового класса (номер класса 1).
-	obj -> show();
+	MC_1* mc;
+	mc = (MC_1*) new MC_4(name, data);
+	//MC_1* mc = (MC_1*)new MC_4(name, _data);
+	mc -> show();
 	cout << endl;
-	((MyClass2*)obj) -> show(); // Наследственность реализовать так, что можно было вызвать методы, принадлежащие объекту конкретного класса, только через объект данного класса.
+	((MC_2*)mc) -> show();
 	cout << endl;
-	((MyClass3*)obj) -> show();
+	((MC_3*)mc) -> show();
 	cout << endl;
-	((MyClass4*)obj) -> show();
+	((MC_4*)mc) -> show();
 }
