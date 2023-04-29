@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#include "MC_4.h"
+#include "MyClass4.h"
 
 int main() {
 	string name;

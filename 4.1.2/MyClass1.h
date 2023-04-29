@@ -1,5 +1,5 @@
-#ifndef MC_1__H
-#define MC_1__H
+#ifndef MyClass1_H
+#define MyClass1_H
 
 
 class MC_1 {

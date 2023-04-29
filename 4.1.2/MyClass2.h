@@ -1,6 +1,6 @@
-#ifndef MC_2_H
-#define MC_2_H
-#include "MC_1.h"
+#ifndef MyClass2_H
+#define MyClass2_H
+#include "MyClass1.h"
 
 class MC_2: private MC_1 {
 	public:
