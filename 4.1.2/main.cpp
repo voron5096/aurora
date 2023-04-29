@@ -8,14 +8,13 @@ int main() {
 	int data;
 	cin >> name >> data;
 	
-	MC_1* mc;
-	mc = (MC_1*) new MC_4(name, data);
-	//MC_1* mc = (MC_1*)new MC_4(name, _data);
+	MyClass1* mc;
+	mc = (MyClass1*) new MyClass4(name, data);
 	mc -> show();
 	cout << endl;
-	((MC_2*)mc) -> show();
+	((MyClass2*)mc) -> show();
 	cout << endl;
-	((MC_3*)mc) -> show();
+	((MyClass3*)mc) -> show();
 	cout << endl;
-	((MC_4*)mc) -> show();
+	((MyClass4*)mc) -> show();
 }

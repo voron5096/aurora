@@ -2,9 +2,9 @@
 #define MyClass3_H
 #include "MyClass2.h"
 
-class MC_3: private MC_2 {
+class MyClass3: private MyClass2 {
 	public:
-		MC_3(string name, int data): MC_2(name, data), name(name+"_3"), data(data * data * data) {
+		MyClass3(string name, int data): MyClass2(name, data), name(name+"_3"), data(data * data * data) {
 			
 		};
 		void show() {

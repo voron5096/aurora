@@ -1,10 +1,10 @@
-#ifndef MyClass1_H
-#define MyClass1_H
+#ifndef MyClass_H
+#define MyClass_H
 
 
-class MC_1 {
+class MyClass1 {
 	public:
-		MC_1(string name, int data): name(name+"_1"), data(data) {
+		MyClass1(string name, int data): name(name+"_1"), data(data) {
 			
 		};
 		void show() {
