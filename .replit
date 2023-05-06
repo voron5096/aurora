@@ -1,6 +1,7 @@
 #compile = "make -s"
 run = "clang++ 4.1.2/main.cpp && ./a.out"
 hidden = ["main", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
+entrypoint = "main.cpp"
 
 
 [nix]
