@@ -1,16 +1,16 @@
-#ifndef __MC_1__H
-#define __MC_1__H
+#ifndef _MyClass1_
+#define _MyClass1_
 
 class MyClass1 {
 	public:
-		MyClass1(string _id): id(_id+"_1") {
+		MyClass1(string x): name(x + "_1") {
 			
 		};
 		void show() {
-			cout << id;
+			cout << name;
 		};
 	private:
-		string id;
+		string name;
 };
 
 #endif

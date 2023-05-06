@@ -5,7 +5,7 @@
 
 class MyClass6: public MyClass2, public MyClass3 {
 	public:
-		MyClass6(string _id): id(_id+"_6"), MyClass2(_id+"_6"), MyClass3(_id+"_6") {
+		MyClass6(string x): id(x + "_6"), MyClass2(x + "_6"), MyClass3(x + "_6") {
 			
 		};
 		void show() {

@@ -4,7 +4,7 @@
 
 class MyClass5: public MyClass1 {
 	public:
-		MyClass5(string _id): id(_id+"_5"), MyClass1(_id+"_5") {
+		MyClass5(string x): id(x + "_5"), MyClass1(x + "_5") {
 			
 		};
 		void show() {

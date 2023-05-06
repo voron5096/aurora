@@ -1,17 +1,17 @@
-#ifndef __MC_3__H
-#define __MC_3__H
+#ifndef _MyClass3_
+#define _MyClass3_
 #include "MyClass1.h"
 
 class MyClass3: public MyClass1 {
 	public:
-		MyClass3(string _id): id(_id+"_3"), MyClass1(_id+"_3") {
+		MyClass3(string x): name(x + "_3"), MyClass1(x + "_3") {
 			
 		};
 		void show() {
-			cout << id;
+			cout << name;
 		};
 	private:
-		string id;
+		string name;
 };
 
 #endif
