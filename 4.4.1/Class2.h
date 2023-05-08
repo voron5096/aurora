@@ -7,7 +7,7 @@ class Class2 {
 		int* array;
 		bool input() {
 			cin >> value;
-			if(value >= 1 && value <= 100) {
+			if (value >= 1 && value <= 100) {
 				array = new int[value];
 				for (int i = 0; i < value; i++) cin >> array[i];
 					return true;

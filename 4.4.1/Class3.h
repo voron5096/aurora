@@ -4,7 +4,7 @@
 
 class Class3: public Class2 {
 	public:
-		void in_out() {
+		void print() {
 			cout << "Array dimension: " << value << endl;
 			cout << "The original array:";
 			for (int i = 0; i < value; i++) {
