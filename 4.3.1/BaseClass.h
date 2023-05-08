@@ -1,10 +1,10 @@
 #ifndef bs
 #define bs
-#include <iostream>
-class BaseClass
-{
-protected:
-int* nums;
-int els;
+
+class BaseClass { // Создать базовый класс, содержащий только свойства
+	protected:
+		int* nums;
+		int tempMaxArr;
 };
+
 #endif
