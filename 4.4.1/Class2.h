@@ -9,7 +9,8 @@ class Class2 {
 			cin >> value;
 			if (value >= 1 && value <= 100) {
 				array = new int[value];
-				for (int i = 0; i < value; i++) cin >> array[i];
+				for (int i = 0; i < value; i++)
+					cin >> array[i];
 					return true;
 			}
 			else
