@@ -1,5 +1,7 @@
 Есть что добавить? Можешь добавить по ссылке: https://github.com/voron5096/aurora/issues/new
 
+### Курсовые: https://github.com/voron5096/kr
+
 https://mirea.aco-avrora.ru/new/ARM_Student.zip
 
 ### Огромное спасибо:
